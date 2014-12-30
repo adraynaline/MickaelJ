@@ -1,0 +1,61 @@
+*,html,body {
+	padding:0;
+	margin:0;
+}
+.clear {
+	clear:both;
+}
+body {
+	font-family: Helvetica Neue;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+header {
+	background:black;
+}
+header p {
+	padding-left: 10px;
+	float:left;
+	color:grey;
+	font-size: 3em;
+}
+header nav {
+	margin-right:10px;
+	margin-top:23px;
+	float:right;
+}
+header nav ul li{
+	color:white;
+	display: inline;
+	margin-right:20px;
+	border:1px solid white;
+	padding:5px;
+	font-size:15px;
+
+}
+header nav ul li span {
+	margin-left:5px;
+	border-left:1px solid white;
+	padding-left: 5px;
+}
+aside {
+	width:300px;
+	background:black;
+}
+aside nav ul li {
+	font-size: 18px;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top: 1px solid white;
+}
+aside nav ul li a{
+	padding-left:10px;
+	color:white;
+	text-decoration: none;
+}
+aside nav ul li a:hover {
+	color:black;
+	text-decoration: none;
+	background:white;
+}
